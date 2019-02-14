@@ -1,0 +1,26 @@
+img.aside {
+  float: left;
+  margin-right: 1rem; 
+}
+
+/* Grid */
+.grid {
+  display: flex;
+}
+.col {
+  flex: 1;
+}
+
+.grid-thirds {
+  display: flex;
+  justify-content: space-between;
+}
+.grid-thirds .col {
+  width: 32%;
+}
+
+@media (max-width: 400px) {
+  .grid {
+    display: block;
+  }
+}

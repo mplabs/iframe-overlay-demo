@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Iframe Rects Demo</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Luke, I am your header</h1>
+    </header>
+    <div class="grid wrapper">
+      <aside>
+        <p>Some side content</p>
+      </aside>
+      <main class="col">
+        <iframe id="embedded-iframe" src="http://127.0.0.1:1337/index.html" frameborder="0"></iframe>
+      </main>
+    </div>
+  </div>
+  <div class="overlay"></div>
+</body>
+</html>
